@@ -17,7 +17,6 @@ import java.io.Serializable;
 @Component
 @AllArgsConstructor
 @NoArgsConstructor
-//在企业中所有的pojo都会序列化
 public class User implements Serializable {
 
     String name;
